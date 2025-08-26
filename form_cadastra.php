@@ -12,6 +12,7 @@
             <div class="mb-3">
                 <input type="text" name="quantidade" placeholder="Digite a quantidade do produto:" class="form-control">
             </div>
+            
             <button type="submit" class="btn btn-primary">Cadastrar</button>
         </form>
     </div>
