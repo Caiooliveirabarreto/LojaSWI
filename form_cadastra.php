@@ -1,3 +1,5 @@
+<body class="bg-dark text-white">
+
 <?php
     include 'pedaco.php';
 ?>

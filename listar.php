@@ -1,3 +1,5 @@
+<body class="bg-dark text-white">
+    
 <?php
 include 'pedaco.php';
 ?>
@@ -26,8 +28,8 @@ include 'pedaco.php';
                     echo "
                     <td>
                         <div class='btn-group' role='group'>
-                            <a href='Form_Atualiza.php?id=XX' type='button' class='btn btn-danger'>Atualizar</a>
-                            <a href='#' type='button' class='btn btn-warning'>Apagar</a>
+                            <a href='Form_Atualiza.php?id=" . $produto['id'] . "' type='button' class='btn btn-danger'>Atualizar</a>
+                            <a href='excluir.php?id=" . $produto['id'] . "' type='button' class='btn btn-warning'>Apagar</a>
                         </div>
                     </td>
                     ";

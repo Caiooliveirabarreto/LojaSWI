@@ -1,3 +1,6 @@
+<body class="bg-dark text-white">
+
+</body>
 <?php
     require 'conexao.php';
     $nome = $_POST['nome'];
@@ -14,6 +17,7 @@
    
     if ($stmt->execute()) {
         echo "Produto inserido com sucesso!";
+        header("location: listar.php");
     } 
     else {
         echo "Erro ao inserir produto.";
