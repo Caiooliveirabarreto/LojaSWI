@@ -1,7 +1,18 @@
+@import url('https://fonts.googleapis.com/css2?family=Onest:wght@200&display=swap');
+.onest-uniquifier {
+  font-family: "Onest", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 200;
+  font-style: normal;
+
+}
+
 body{
+    font-family: "Onest", sans-serif;
+    text-shadow: 0px 1px 5px rgba(255, 255, 255, 0.5);
     color: white;
     /* From https://css.glass */
-    background: rgba(0, 0, 0, 0.6);
+    background: rgba(0, 0, 0, .75);
     border-radius: 16px;
     box-shadow: 0 4px 30px rgba(0, 0, 0, 0.4);
     backdrop-filter: blur(5.1px);
@@ -21,7 +32,24 @@ body{
 
 a{
     width: auto;
-    margin: 1vh;
+    margin: 1.5vh;
     padding: 1vh;
     font-size: 2vh;
+}
+
+.btn-custom {
+    background-color: #535481;
+    color: white;
+    text-align: center;
+    font-size: 16px;
+    border-radius: 15px;
+    border: 2px solid #535481;
+    text-decoration: none;
+}
+.btn-custom:hover {
+    background-color: #3e3e70;
+    color: white;
+    border-radius: 15px;
+    font-size: 17px;
+    transition: all 0.3s ease-in-out;
 }

@@ -37,8 +37,8 @@ include 'pedaco.php';
                     echo "
                     <td>
                         <div class='btn-group' role='group'>
-                            <a href='Form_Atualiza.php?id=" . $produto['id'] . "' type='button' class='btn btn-danger'>Atualizar</a>
-                            <a href='excluir.php?id=" . $produto['id'] . "' type='button' class='btn btn-warning'>Apagar</a>
+                            <a href='Form_Atualiza.php?id=" . $produto['id'] . "' type='button' class='btn-custom'>Atualizar</a>
+                            <a href='excluir.php?id=" . $produto['id'] . "' type='button' class='btn-custom'>Apagar</a>
                         </div>
                     </td>
                     ";

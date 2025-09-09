@@ -34,7 +34,7 @@
                 Quantidade: <input type="text" value="<?php echo $produto['quantidade']; ?>" name="quantidade_novo" class="form-control">
             </div>
             
-            <button type="submit" class="btn btn-primary">Atualizar</button>
+            <button type="submit" class="btn-custom">Atualizar</button>
         </form>
     </div>
 

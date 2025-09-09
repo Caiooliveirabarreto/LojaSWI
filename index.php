@@ -5,9 +5,9 @@
 ?>
         <div class="container text-center">
             <div class="btn-group" role="group">
-                <a href='form_cadastra.php' type="button" class="btn btn-danger">Cadastrar Produtos</a>
+                <a href='form_cadastra.php' type="button" class="btn-custom">Cadastrar Produtos</a>
                 <br>
-                <a href='listar.php'type="button" class="btn btn-warning">Listar Produtos</a>
+                <a href='listar.php'type="button" class="btn-custom">Listar Produtos</a>
             </div>
         </div>
 
