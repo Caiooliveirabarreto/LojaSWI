@@ -8,6 +8,14 @@
     <title>Lojinha Etec MCM</title>
 </head>
 <body>
+    <nav>
+        <a href="atualiza.php">Atualizar</a>
+        <a href="excluir.php">Excluir</a>
+        <a href="Form_atualiza.php">Form Atualizar</a>
+        <a href="Form_cadastra.php">Form Cadastrar</a>
+        <a href="Index.php">Home</a>
+        <a href="listar.php">Lista</a>
+    </nav>
         <div class="container text-center">
             <h1>Sistema CRUD - Loja</h1>
             <h3>Caio Oliveira Barreto</h2>

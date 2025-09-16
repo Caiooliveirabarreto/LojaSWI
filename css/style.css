@@ -53,3 +53,15 @@ a{
     font-size: 17px;
     transition: all 0.3s ease-in-out;
 }
+nav{
+    position: fixed;
+    top: 10%;
+}
+a{
+    text-decoration: none;
+    color: white;
+}
+a:hover{
+    color: #89899e;
+    transition: all 0.3s ease-in-out;
+}   
