@@ -11,7 +11,7 @@
 
 <?php
     include 'pedaco.php';
-    $id = $_GET['id'];
+
 
 ?>
 
@@ -19,9 +19,11 @@
         <form action="atualiza.php?id=<?php echo $id; ?>" method="POST"> 
             <?php
                 require 'conexao.php';
+                $id = $_GET['id'];  
                 $sql = "SELECT * FROM produtos WHERE id = $id";
                 $stmt = $pdo->query($sql);
                 $produto = $stmt->fetch(PDO::FETCH_ASSOC);
+
             ?>
 
             <div class="mb-3">

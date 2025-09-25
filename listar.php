@@ -12,8 +12,8 @@
 <?php
 include 'pedaco.php';
 ?>
-<div class="container">
-    <table class="table">
+<div>
+    <table>
         <thead>
             <tr>
                 <th scope="col">Código</th>
