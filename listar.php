@@ -12,8 +12,8 @@
 <?php
 include 'pedaco.php';
 ?>
-<div>
-    <table>
+<div class="container-center">
+    <table class="tabelaResponsiva">
         <thead>
             <tr>
                 <th scope="col">Código</th>
@@ -36,7 +36,7 @@ include 'pedaco.php';
                     echo "<td> " . $produto['quantidade'] . "</td>";
                     echo "
                     <td>
-                        <div class='btn-group' role='group'>
+                        <div class='tabelaResponsiva' role='group'>
                             <a href='Form_Atualiza.php?id=" . $produto['id'] . "' type='button' class='btn-custom'>Atualizar</a>
                             <a href='excluir.php?id=" . $produto['id'] . "' type='button' class='btn-custom'>Apagar</a>
                         </div>
